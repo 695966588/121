@@ -9,8 +9,8 @@ let mmdzzhd = $.getdata('mmdzzhd')
   if (typeof $request !== "undefined") {
     await mmdzzck()
    
-  } else {mmdzzurlArr.push("{"ed":"EbI35ZyWY0t/gBhhEQNwo+Cd1MG19bIFq5THYP5fUZSZreij633Q/m1BG3IvNlNFTKwxwCc0vrGOMLVrWYyyZK4J1WeaLYwk6o71+4Y+dtQ="}")
-    mmdzzhdArr.push("{"Connection":"keep-alive","Accept-Encoding":"br, gzip, deflate","Content-Type":"application/json","Origin":"https://catxxx.higaoyao.com","User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148","platform":"ios","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwcm9kIiwiaWF0IjoxNjE4MzgxMjgzLCJleHAiOjE2MjA5MTkyODMsIm5iZiI6MTYxODM4MTI4MywidWlkIjoxMTA1MzUwfQ.zBTimWH6E_SGi4u3_LD0pSSjEf034tpDRroJqEXeBi4","versionCode":"33","Host":"xxlapi.higaoyao.com:553","Referer":"https://catxxx.higaoyao.com/v228/index.html","Accept-Language":"zh-cn","Accept":"*/*","Content-Length":"117"}")
+  } else {mmdzzurlArr.push("{\"ed\":\"EbI35ZyWY0t/gBhhEQNwo+Cd1MG19bIFq5THYP5fUZSZreij633Q/m1BG3IvNlNFTKwxwCc0vrGOMLVrWYyyZK4J1WeaLYwk6o71+4Y+dtQ=\"}"}")
+    mmdzzhdArr.push("{\"Connection\":\"keep-alive\",\"Accept-Encoding\":\"br, gzip, deflate\",\"Content-Type\":\"application/json\",\"Origin\":\"https://catxxx.higaoyao.com\",\"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148\",\"platform\":\"ios\",\"Authorization\":\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwcm9kIiwiaWF0IjoxNjE4MzgxMjgzLCJleHAiOjE2MjA5MTkyODMsIm5iZiI6MTYxODM4MTI4MywidWlkIjoxMTA1MzUwfQ.zBTimWH6E_SGi4u3_LD0pSSjEf034tpDRroJqEXeBi4\",\"versionCode\":\"33\",\"Host\":\"xxlapi.higaoyao.com:553\",\"Referer\":\"https://catxxx.higaoyao.com/v228/index.html\",\"Accept-Language\":\"zh-cn\",\"Accept\":\"*/*\",\"Content-Length\":\"117\"}")
     let mmdzzcount = ($.getval('mmdzzcount') || '1');
   for (let i = 2; i <= mmdzzcount; i++) {
     mmdzzurlArr.push($.getdata(`mmdzzurl${i}`))
