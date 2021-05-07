@@ -24,7 +24,7 @@ https://sunnytown.hyskgame.com/api/messages\SaccessToken=\w+&msgtype=system_getG
 const $ = new Env('富豪小镇'); 
  let status; 
  status = (status = ($.getval("fhxzstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符 
- const fhxzurlArr = ['https://sunnytown.hyskgame.com/api/messages?accessToken=244275_1620288754_8d6dff83e83444c5de954dbc976109bf&msgtype=system_getGpvGameOptions'], fhxzhdArr = ['{"Accept":"*/*","Accept-Encoding":"gzip, deflate, br","Connection":"keep-alive","Content-Type":"application/octet-stream","Host":"sunnytown.hyskgame.com","Content-Length":"116","User-Agent":"fuhaoxiaozhen/22 CFNetwork/1209 Darwin/20.2.0","Accept-Language":"zh-cn","X-Unity-Version":"2019.2.9f1"}'],fhxzcount = '' 
+ const fhxzurlArr = ['https://sunnytown.hyskgame.com/api/messages?accessToken=245147_1620303583_5f6ccaa405b43df72bb5bcca36da089f&msgtype=system_getGpvGameOptions'], fhxzhdArr = ['{"Accept":"*/*","Accept-Encoding":"br, gzip, deflate","Connection":"keep-alive","Content-Type":"application/octet-stream","Host":"sunnytown.hyskgame.com","Content-Length":"116","User-Agent":"fuhaoxiaozhen/22 CFNetwork/978.0.7 Darwin/18.7.0","Accept-Language":"zh-cn","X-Unity-Version":"2019.2.9f1"}'],fhxzcount = '' 
  let times = Math.round(Date.now() / 1000) 
  let fhxzurl = $.getdata('fhxzurl') 
  let fhxzhd = $.getdata('fhxzhd') 
