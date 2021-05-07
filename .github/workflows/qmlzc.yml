@@ -23,11 +23,11 @@ jobs:
         with:
           node-version: 12.x
       - name: npm install
-      if: env.XNMHEADER
+      if: env.XNMURL
         run: |
           npm install
       - name: '运行 【qmlzc】'
-      if: env.XNMHEADER
+      if: env.XNMURL
         run: |
           node Task/qmlzc.js
         env:
