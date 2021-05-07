@@ -25,8 +25,8 @@ const $ = Env('全民来找茬')
 
 let status;
 status = (status = ($.getval("xnmstatus") || "1") ) > 1 ? `${status}` : ""; 
-xnmheaderArr = ['{"User-Agent":"qmlzc-mobile/2.0 CFNetwork/897.15 Darwin/17.5.0","Host":"qmlzc-api.lw0591.com","Connection":"keep-alive","Accept-Language":"zh-cn","Accept-Encoding":"br, gzip, deflate","Accept":"*/*"}']
-xnmurlArr = ['https://qmlzc-api.lw0591.com/v1/userinfo?api_token=ThJRno6wNhgBrvhs46IpnLr7OqhVeBrc&hotversion=1.000&imei1=79002F4C-D37E-48F5-AB96-91EC61DD7AB5&imei2=79002F4C-D37E-48F5-AB96-91EC61DD7AB5&mac=02%3A00%3A00%3A00%3A00%3A00&param_channel=998&timestamp=1620355279769&user_id=12347026&sign=c47394bbbc9be97741a5b676e78564d3']
+xnmheaderArr = [{"User-Agent":"qmlzc-mobile/2.0 CFNetwork/897.15 Darwin/17.5.0","Host":"qmlzc-api.lw0591.com","Connection":"keep-alive","Accept-Language":"zh-cn","Accept-Encoding":"br, gzip, deflate","Accept":"*/*"}]
+xnmurlArr = ["https://qmlzc-api.lw0591.com/v1/userinfo?api_token=ThJRno6wNhgBrvhs46IpnLr7OqhVeBrc&hotversion=1.000&imei1=79002F4C-D37E-48F5-AB96-91EC61DD7AB5&imei2=79002F4C-D37E-48F5-AB96-91EC61DD7AB5&mac=02%3A00%3A00%3A00%3A00%3A00&param_channel=998&timestamp=1620355279769&user_id=12347026&sign=c47394bbbc9be97741a5b676e78564d3"]
 let xnmheader = $.getdata('xnmheader')
 let xnmurl = $.getdata('xnmurl')
 const logs =0;
