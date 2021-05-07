@@ -25,7 +25,7 @@ const $ = Env('全民来找茬')
 
 let status;
 status = (status = ($.getval("xnmstatus") || "1") ) > 1 ? `${status}` : ""; 
-xnmheaderArr = ["https://qmlzc-api.lw0591.com/v1/userinfo?api_token=ThJRno6wNhgBrvhs46IpnLr7OqhVeBrc&hotversion=1.000&imei1=79002F4C-D37E-48F5-AB96-91EC61DD7AB5&imei2=79002F4C-D37E-48F5-AB96-91EC61DD7AB5&mac=02%3A00%3A00%3A00%3A00%3A00&param_channel=998&timestamp=1620355279769&user_id=12347026&sign=c47394bbbc9be97741a5b676e78564d3"]
+xnmheaderArr = ['https://qmlzc-api.lw0591.com/v1/userinfo?api_token=ThJRno6wNhgBrvhs46IpnLr7OqhVeBrc&hotversion=1.000&imei1=79002F4C-D37E-48F5-AB96-91EC61DD7AB5&imei2=79002F4C-D37E-48F5-AB96-91EC61DD7AB5&mac=02%3A00%3A00%3A00%3A00%3A00&param_channel=998&timestamp=1620355279769&user_id=12347026&sign=c47394bbbc9be97741a5b676e78564d3']
 xnmurlArr = []
 let xnmheader = $.getdata('xnmheader')
 let xnmurl = $.getdata('xnmurl')
